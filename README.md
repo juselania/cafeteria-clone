@@ -1,6 +1,6 @@
 <h1 align="center">Grão Espresso</h1> 
 
-<img src="./images/logo-esticada.png" width="100%" style="max-width:100%;margin-top:30px;"></a><br>
+<img src="./images/logo-esticada.png" width="20%" style="max-width:100%;margin-top:30px;"></a><br>
 
 <blockquote align="center">
 É uma franquia de cafeterias, com ambiente muito aconchegante, e deliciosos cafés.<br> 
@@ -14,7 +14,7 @@ No Front-end da aplicação foi utilizado o **HTML**, **CSS**, **Javascript**, *
 
 **Página Inicial:**
 
-<img src="./images/done.jpg" width="100%" style="max-width:100%;margin-top:30px;"></a><br>
+<img src="./images/done.jpg" width="50%" style="max-width:100%;margin-top:30px;"></a><br>
 
 
 ## Bibliotecas e Linguagens
