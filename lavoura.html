@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-pequena.png">
+    <script type="text/javascript" src="./meu-arquivo.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>DA LAVOURA ATÉ VOCÊ! | Grão Espreso</title> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+<script>
+$(document).ready(function(){
+
+$('a').hover(function(){ 
+$(this).css("color","#FF8C00"); 
+}, function(){
+$(this).css("color","#FF8C00"); 
+});
+$('#submenu_sobre').css('background-color','#8B4513');
+$('#sobre').hover(function(){ 
+$('#submenu_sobre').show(); 
+
+}, function(){
+$('#submenu_sobre').hide();
+
+$('#cont_hide').css('background-color','#8B4513')
+$('#home').css({
+  'font-size':'22px',
+  'width':'100%',
+  'padding':'1%',
+  'font-family':'Century Gothic',
+  'color':'#FF4500'
+  /* superior | direita | inferior | esquerda */
+  //'padding': '10px 3em 0 1em'
+});
+
+$('#home').css('font-size','20px');
+$('#sobre').css('font-size','20px');
+$('#marca').css('color','#FF4500');
+
+$('body').css({
+  'font-family': 'westminster',
+
+});
+$('#home').css('background-color','#8B4513');
+$('#submenu_sobre').css('color','	#FF4500');
+$('#a').css('text-decoration','none');
+}); 
+
+
+//BANNER
+$('#coffee').css({
+    'color':'#FF8C00',
+    'font-family':'Arial',
+    'font-size':'55px',
+    'padding':'1%'
+    
+});
+//colunas - 3 corações
+$('#3-coracoes').css({
+'font-family':'Century Gothic',
+'font-size':'19px',
+'color':'#8B4513',
+'background-color':'#FAF0E6',
+});
+$('#3core').css('color','#FF8C00'),
+$('#banner-3').css({
+'background-color':'#FAF0E6',
+'text-align':'left',
+});
+$('#banner').css('background-color','#FFF8DC');
+
+//veja mais 
+$('#text-veja').css({
+  'text-align':'center',
+    'color':'#8B4513',
+    'font-size':'30px',
+    'font-family':'arial'
+});
+//FORMATAÇÃO PARCERIA
+$('#parceria').css({
+  'background-color':'	#FF8C00',
+  'padding':'2%'
+  });
+
+  //FORMATAÇÃO FOOTER
+$('#menu1').css('color','#F8F8FF');
+$('#menu1').css('color','#F8F8FF');
+$('#a').css('text-decoration','none');
+$('#end').css('background-color','	#4F4F4F');
+$('#text-end').css('text-align','center');
+$('#end').css('color','#F8F8FF');
+$('#one').css('background-color','	#4F4F4F');
+$('#end0').css('background-color','	#4F4F4F');
+$('footer').css('width','100%');
+});
+
+
+
+</script>
+</head>
+
+<body>
+    <ul class="nav" id="home">
+        <img src="./images/logo-esticada.png" alt="logo" width="15%" height="15%">
+    <hr>
+         <li class="nav-item">
+           <a class="nav-link active" href="index.html">HOME</a>
+         </li>
+          <li class="nav-item dropdown"  id="sobre">
+           <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SOBRE</a>
+       <div class="dropdown-menu" id="submenu_sobre">
+          <a class="dropdown-item" href="paixao.html">A grão espresso</a>
+          <a class="dropdown-item" href="grao-espresso-S.html">Espreso com S</a>
+          <a class="dropdown-item" href="parceria.html">Parcerias 3 Corações</a>
+          <a class="dropdown-item" href="lavoura.html">O Café espresso</a>
+          <a class="dropdown-item" href="#">Notícias</a>
+           <div class="dropdown-divider"></div>
+      </div>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">PRODUTOS</a>
+         </li>
+           <li class="nav-item">
+            <a class="nav-link" href="loja.html">ENCONTRE UMA LOJA</a>
+          </li>
+          <li class="nav-item" id="marca">
+             <a class="nav-link" href="#"> <b> SEJA UM FRANQUEADO</b></a>
+          </li>
+          <li class="nav-item dropdown" id="cont">
+             <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CONTATO
+         <div class="dropdown-menu" id="cont_hide">
+           <a class="dropdown-item" href="#">Fale conosco</a>
+           <a class="dropdown-item" href="#">Trabalhe conosco</a>
+           <a class="dropdown-item" href="#">Seja nosso Fornecedor</a>
+           <div class="dropdown-divider"></div>
+        </div>
+        </li> 
+   </ul>
+   
+  
+    <img src="./images/1_banner-topo-cafe.jpg" alt="banner parceria" id="banner" height="80%" width="100%"><br><br><br>
+
+        <div class="row">
+            <div class="col-sm" id="3-coracoes">
+              <div class="card-body" >
+                <h3 id="coffee"><b>DA LAVOURA ATÉ VOCÊ!</b><br> __</h3>
+
+               <p><b>O Grupo 3 Corações abraça a cadeia produtiva cafeeira desde a compra do café verde junto ao produtor até o varejo. <br>
+                É um sistema vivo onde interagem diversas Unidades de Compra e Beneficiamento de Café Verde, Unidades Industriais,<br>
+                 Centros de Venda e Distribuição, Escritórios de Vendas, Unidade de Exportação e Unidades de Food Solutions, conectados <br>
+                  com o mercado e interligados por uma unidade corporativa – a Unidade Integradora – que garante que todas as fábricas <br>
+                  tenham os mesmos processos e que todos os grãos tenham a mesma qualidade. Por isso, a 3 Corações produz o café do jeito <br>
+                   que o nosso consumidor gosta..</p>
+
+                <p>A Empresa conta ainda com a Escola de Serviços e Sabores 3 Corações, uma solução de aprendizagem pioneira que integra a Educação <br>
+                     Corporativa do Grupo. Localizada em Eusébio (CE), a Escola contribui de forma única para a formação especializada de profissionais. <br>
+                      É de lá que saem os baristas profissionais que visitam as lojas Grão Espresso e garantem um treinamento eficiente e completo para as <br>
+                       nossas equipes de lojas.
+
+                   <p> Assim como a Grão Espresso, o Grupo 3 Corações trabalha sempre para elevar o patamar de qualidade do produto que é referência histórica <br>
+                     nacional!</p>
+
+                    <h4>BLEND GRÃO ESPRESSO – PREMIUM</h4>
+                    <p>Origem: Sul de Minas e Espírito Santo</p>
+                    <p></p>Composição: 90% Arábica e 10% Conilon</p>
+                    <p>Corpo: intenso</p>
+                    <p>Aroma: cacau e torradas</p>
+                    <p>Sabor: chocolate meio amargo e caramelo</p>
+                    <p>Acidez: média baixa</p>
+                    <p>Torra: Média</p>
+                    <p>Harmoniza: Brigadeiro de chocolate ao leite</p>
+
+                             <p><a href="https://www.3coracoes.com.br/" id="3core">Clique aqui</a> para saber mais sobre o Grupo 3 Corações</b></p>
+              </div>
+             </div>
+              <div class="col-sm" id="banner-3">
+                <div class="card-body" >
+                  <img src="./images/1-2banner-sobre-cafe-lateral.png" alt="logo-grão-espresso" >
+
+                </div>
+              </div>
+            </div>  
+        </div>
+        
+        <img src="./images/banner-parceria3-mid-maquina.jpg" alt="" height="40%" width="100%">
+
+        <div class="row">
+            <div class="col-sm" id="text-veja">
+              <div class="card-body" >
+                <img src="./images/logo-pequena.png" alt="logo-grão-espresso" >
+                <h1><b>VEJA TAMBÉM</b></h1>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row" id="parceria">
+            <div class="col-sm" >
+              <div class="card-body" >
+                <a href="paixao.html"><img src="./images/0-banner-sobre-vejamais-graoespresso.jpg" alt=""  height="100%" width="100%"></a>
+              </div>
+             </div>
+          <div class="col-sm">
+                <div class="card-body" >
+                    <a href="lavoura.html">  <img src="./images/banner-sobre-vejamais-cafe.jpg" alt="" height="100%" width="100%"></a>
+                  
+                </div>
+              </div>
+            </div>
+
+            <footer class="page-footer font-small blue pt-4" id="end">
+                <div class="container-fluid text-center text-md-left">
+                  <img src="./images/mini-xicara.png" alt="xicara" width="10%" height="10%" id="xicara-2"></div>
+                <div class="container-fluid text-center text-md-left">
+                  <div class="row">
+                    <div class="col-md-6 mt-md-0 mt-3">
+                      <!-- Content -->
+                      <img src="./images/logotipo-branco.png" alt=""><br> <br>
+                      <a href="https://www.instagram.com/jullydeveloper/?hl=pt-br"> <img src="https://img.icons8.com/metro/26/000000/instagram-new.png"></a> <a href="https://www.facebook.com/graoespresso/"><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png"></a> <a href="https://www.linkedin.com/in/jucel%C3%A2nia-silva-56a375197/"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"> </a>
+                      <br> <br>
+                      <h5><img src="https://img.icons8.com/windows/32/000000/phone.png"> (11) 3616-1530</h5>
+                        <!-- Copyright -->
+                      <br>
+                    <h6>NOTÍCIAS  |  POLÍTICA DE PRIVACIDADE  |  CONTATO  |  SEJA UM FRANQUEADO</h6>
+                     <p>© 2020 Grão Espresso. Todos os direitos reservados. | Desenvolvido por Jully Developer</p>
+                    </div>
+          
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3" id="menu1">
+                      <h4 class="text-uppercase"> SOBRE </h4>
+              
+                      <ul class="list-unstyled" id="link1" >
+                        <li>
+                          <a href="#!">A Grão Espresso</a>
+                        </li>
+                        <li>
+                          <a href="#!">Parceria 3 Corações</a>
+                        </li>
+                        <li>
+                          <a href="#!">O Café Espresso</a>
+                        </li>
+                        <li>
+                          <a href="#!">Nossas Lojas</a>
+                        </li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-md-3 mb-md-0 mb-3">
+                      <h5 class="text-uppercase">CONTATO</h5>
+                      <ul class="list-unstyled"  id="menu2">
+                        <li>
+                          <a href="#!">Fale Conosco</a>
+                        </li>
+                        <li>
+                          <a href="#!">Trabalhe Conosco</a>
+                        </li>
+                        <li>
+                          <a href="#!">Seja nosso Fornecedor</a>
+                        </li>
+                        <li>
+                          <a href="#!">Seja um Franqueado</a>
+                        </li>
+                      </ul>
+              <div class="footer-copyright text-center py-3">
+                <img src="./images/logotipo-abf.png" alt="">  
+                </div>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                      <hr class="clearfix w-100 d-md-none pb-3">
+                  </div>
+                </div>
+                <!-- Copyright 
+                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+              </footer>
+</body>
+</html>
+

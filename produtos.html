@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-pequena.png">
+    <script type="text/javascript" src="./meu-arquivo.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>Grão Espresso</title> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+   <script>
+     //função principal.
+    $(document).ready(function(){
+      $('#end').css('padding','10px');
+      $('#suaid').css('background-color','#FFEFD5');
+      $('#xicara-2').css('margin-left','50%')
+      $('.carousel').carousel({
+          interval: 300
+});
+
+
+//FORMATAÇÃO DO MENU!
+$('a').hover(function(){ //aqui estou dizendo que toda vez que ele passar por um Objeto " Li " execute Hover Lembrando que " li " é a tag do html, mas poderia ser um objeto com qualquer apelido
+$(this).css("color","#FF4500"); // this é para apontar para o objeto que o mouse esta passando quando ele passar faça, troca o fundo para vermelho 
+}, function(){
+$(this).css("color","#F5FFFA"); // quando o mouse sair volte a cor laranja
+});
+$('#submenu_sobre').css('background-color','#8B4513');
+$('#sobre').hover(function(){ 
+$('#submenu_sobre').show(); // mostra o sub-menu
+}, function(){
+$('#submenu_sobre').hide(); //esconde o sub-menu
+
+$('#cont_hide').css('background-color','#8B4513')
+$('#home').css({
+  'font-size':'22px',
+  'width':'100%',
+  'padding':'1%',
+  'font-family':'Century Gothic',
+  'color':'#FF4500'
+  /* superior | direita | inferior | esquerda */
+  //'padding': '10px 3em 0 1em'
+});
+
+$('#home').css('font-size','20px');
+$('#sobre').css('font-size','20px');
+$('#marca').css('color','#FF4500');
+
+$('body').css({
+  'font-family': 'westminster'
+});
+$('#home').css('background-color','#8B4513');
+$('#submenu_sobre').css('color','	#FF4500');
+}); 
+$('#a').css('text-decoration','none');
+
+//noticias 
+$('#noticias').css('text-align','center');
+$('#noticias').css('font-family','arial');
+$('#noticias').css('color','#62462B');
+    });
+</script>
+</head>
+
+<body>
+   <!-- MENU!-->
+ <ul class="nav" id="home">
+    <img src="./images/logo-esticada.png" alt="logo" width="15%" height="15%">
+    <hr>
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">HOME</a>
+      </li>
+       <li class="nav-item dropdown"  id="sobre">
+        <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SOBRE</a>
+        <div class="dropdown-menu" id="submenu_sobre">
+          <a class="dropdown-item" href="paixao.html">A grão espresso</a>
+          <a class="dropdown-item" href="grao-espresso-S.html">Espreso com S</a>
+          <a class="dropdown-item" href="parceria.html">Parcerias 3 Corações</a>
+          <a class="dropdown-item" href="lavoura.html">O Café espresso</a>
+          <a class="dropdown-item" href="#">Notícias</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUTOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="loja.html">ENCONTRE UMA LOJA</a>
+      </li>
+      <li class="nav-item dropdown" id="cont">
+        <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CONTATO
+          <div class="dropdown-menu" id="cont_hide">
+            <a class="dropdown-item" href="#">Fale conosco</a>
+            <a class="dropdown-item" href="#">Trabalhe conosco</a>
+            <a class="dropdown-item" href="#">Seja nosso Fornecedor</a>
+            <div class="dropdown-divider"></div>
+          </div>
+      </li> 
+      <li class="nav-item" id="marca">
+        <a class="nav-link" href="#"> <b> SEJA UM FRANQUEADO</b></a>
+      </li>
+      
+    </ul> 
+    <img src="./images/banner-top-produtos.jpg" alt="" height="40%" width="100%">
+
+    <!-- LOGO NOTICIAS QUENTES-->
+ <ul id="noticias">
+    <img src="./images/logo-pequena.png" alt="logo-grão-espresso" width="35px" height="60px">
+   <p>Para acompanhar essa paixão nacional que é o café, nosso cardápio tem produtos de <br>
+     qualidade e exclusivos para todas as horas do dia!</p>
+  </ul>
+  
+</body>
+</html>

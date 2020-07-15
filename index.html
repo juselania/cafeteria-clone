@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-pequena.png">
+    <script type="text/javascript" src="./meu-arquivo.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>Grão Espreso</title> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+   <script>
+     //função principal.
+    $(document).ready(function(){
+      $('#end').css('padding','10px');
+      $('#suaid').css('background-color','#FFEFD5');
+      $('#xicara-2').css('margin-left','50%')
+      $('.carousel').carousel({
+          interval: 300
+});
+
+//
+$('#cont').hover(function(){ 
+$('#cont_hide').show();
+}, function(){
+$('#cont_hide').hide(); 
+}); 
+
+//FORMATAÇÃO DE ENVIO DE EMAIL
+$('#email').css('background-color','#FF8C00');
+$('#cadastro').css('color','#8B4513');
+$('#cadastro').css('font-family','Lucida Sans Typewriter');
+$('#ci').css('background-color','		#FF8C00');
+/*
+$('#submit').css('color','	#FF0000');
+$('#submit').css('border-bottom-color','	#FF0000');
+$('#submit').css('border-style','solid');
+//border-style: solid;
+//border-bottom-style: solid;
+  //border-bottom-color: coral;*/
+
+//$('#fundo_col1').css('background-color','red');
+//$('#fundo_col1').css('width','100px');
+//$('#fundo_col2').css('background-color','red');
+
+//$('#coffee').css('color','#8B4513');
+
+
+/*
+$('#fundo2').css({
+  'font-family': 'Lucida Sans Typewriter',
+  'color':'#8B4513',
+  'text-align':'left'
+});
+$('#fundo1').css({
+  'font-family': 'Lucida Sans Typewriter',
+  'color':'#8B4513',
+});
+*/
+
+//FORMATAÇÃO HISTORIA DA GRÃO
+$('#coffee').css('font-family','Lucida Sans Typewriter');
+$('#coffee').css('color','#8B4513');
+//$('#fundo_col').css('width','10%');
+$('#hist').css('color','	#D2691E'); 
+$('#suaid').css('background-color','#FDF5E6');
+$('#hist').css('background-color','#FDF5E6');
+$('#grao-testo').css({
+  'font-family': 'Maiandra GD',
+  'color': '#8B4513'
+});
+
+$('#hist').css({
+  'font-family': 'Lucida Sans Typewriter',
+  'color': '#FF8C00'
+  
+});
+$('#suaid').css({
+  'font-family': 'Lucida Sans Typewriter',
+  'color': '#8B4513',
+  'text-align':'center',
+  'background-color':'#FDF5E6'
+  
+});
+//FORMATAÇÃO MAPA
+$('#mapa').css('background-color','#FF8C00');
+$('#mapa-form').css('color','	#8B4513');
+$('#mapa-form').css({
+  'font-family': 'Lucida Sans Typewriter'
+});
+
+
+//FORMATAÇÃO DO FORM - FRANQUIADOR!
+$('#photo').css('text-align','center');
+$('#loja').css('font-family','Lucida Sans Typewriter');
+$('#loja').css('color','#FF8C00');
+$('#loja').css('font-size','35px');
+$('franq').css({
+  'width':'50px',
+  'heigth':'50px'
+});
+
+
+
+//FORMATAÇÃO DO MENU!
+$('a').hover(function(){ //aqui estou dizendo que toda vez que ele passar por um Objeto " Li " execute Hover Lembrando que " li " é a tag do html, mas poderia ser um objeto com qualquer apelido
+$(this).css("color","#FF4500"); // this é para apontar para o objeto que o mouse esta passando quando ele passar faça, troca o fundo para vermelho 
+}, function(){
+$(this).css("color","#F5FFFA"); // quando o mouse sair volte a cor laranja
+});
+$('#submenu_sobre').css('background-color','#8B4513');
+$('#sobre').hover(function(){ 
+$('#submenu_sobre').show(); // mostra o sub-menu
+}, function(){
+$('#submenu_sobre').hide(); //esconde o sub-menu
+
+$('#cont_hide').css('background-color','#8B4513')
+$('#home').css({
+  'font-size':'22px',
+  'width':'100%',
+ // 'padding':'1%',
+  'font-family':'Century Gothic',
+  'color':'#FF4500'
+  /* superior | direita | inferior | esquerda */
+  //'padding': '10px 3em 0 1em'
+});
+
+$('#home').css('font-size','20px');
+$('#sobre').css('font-size','20px');
+$('#marca').css('color','#FF4500');
+
+$('body').css({
+  'font-family': 'westminster'
+});
+$('#home').css('background-color','#8B4513');
+$('#submenu_sobre').css('color','	#FF4500');
+}); 
+$('#a').css('text-decoration','none');
+
+//FORMATAÇÃO NOTICIAS QUENTES
+$('#noticias').css('text-align','center');
+$('#noticias').css('color','#8B4513');
+$('#noticias').css('font-family','Lucida Sans Typewriter');
+
+//FORMATAÇÃO LOJAS 
+$('#loja2').css('font-family','Arial');
+$('#loja2').css('color','#8B4513');
+$('#loja1').css('color','#8B4513');
+$('#loja1').css('font-family','Arial');
+$('#loja1').css('background-color','#FFF8DC');
+$('#loja2').css('background-color','#FFF8DC');
+$('#lojas').css('color','#F5FFFA');
+
+//FORMATAÇÃO FOOTER
+$('#menu1').css('color','#F8F8FF');
+$('#menu1').css('color','#F8F8FF');
+$('#a').css('text-decoration','none');
+$('#end').css('background-color','	#4F4F4F');
+$('#text-end').css('text-align','center');
+$('#end').css('color','#F8F8FF');
+$('#one').css('background-color','	#4F4F4F');
+$('#end0').css('background-color','	#4F4F4F');
+$('footer').css('width','100%');
+
+//APESENTAÇÃO
+$('#inicio').css('background-color','	black');
+$('apresentacao').css('calor','pink');
+
+});
+  </script>
+</head>
+
+<body>
+
+  
+  <!-- MENU
+  <ul class="nav" id="home">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">HOME</a>
+    </li>
+  </ul>-->
+
+
+<!--teste-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+</nav>
+
+<!-- MENU!-->
+ <ul class="nav" id="home">
+  <img src="./images/logo-esticada.png" alt="logo" width="15%" height="15%">
+  <hr>
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">HOME</a>
+    </li>
+     <li class="nav-item dropdown"  id="sobre">
+      <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SOBRE</a>
+      <div class="dropdown-menu" id="submenu_sobre">
+        <a class="dropdown-item" href="paixao.html">A grão espresso</a>
+        <a class="dropdown-item" href="grao-espresso-S.html">Espreso com S</a>
+        <a class="dropdown-item" href="parceria.html">Parcerias 3 Corações</a>
+        <a class="dropdown-item" href="lavoura.html">O Café espresso</a>
+        <a class="dropdown-item" href="#">Notícias</a>
+        <div class="dropdown-divider"></div>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PRODUTOS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="loja.html">ENCONTRE UMA LOJA</a>
+    </li>
+    <li class="nav-item dropdown" id="cont">
+      <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CONTATO
+        <div class="dropdown-menu" id="cont_hide">
+          <a class="dropdown-item" href="#">Fale conosco</a>
+          <a class="dropdown-item" href="loading.html">Trabalhe conosco</a>
+          <a class="dropdown-item" href="loading.html">Seja nosso Fornecedor</a>
+          <div class="dropdown-divider"></div>
+        </div>
+    </li> 
+    <li class="nav-item" id="marca">
+      <a class="nav-link" href="loading.html"> <b> SEJA UM FRANQUEADO</b></a>
+    </li>
+    
+  </ul>
+  <!-- CAROUSEL-->
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <img src="./images/slide0.png" class="d-block w-100" alt="image-coffee">
+      </div>
+      <div class="carousel-item" data-interval="2000">
+       <a href="promocao.html"> <img src="./images/slide2.png" class="d-block w-100" alt="image-coffee2"></a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ <div id="imageoption"></div>  
+<br>
+<!-- LOGO NOTICIAS QUENTES-->
+ <ul id="noticias">
+  <img src="./images/logo-pequena.png" alt="logo-grão-espresso" width="35px" height="63px">
+  <h1 >NOTÍCIAS QUENTES</h1>
+</ul>
+
+<!--
+ <div class="row">
+    <div class="col-sm" id="img-coffee">
+    <div class="card mb-3">
+      <div class="row no-gutters"> 
+
+  <img src="./images/logo-pequena.png" alt="logo-grão-espreso" width="20px" height="35px" >
+      </div>
+    </div>
+    </div>
+    <div class="col-sm" id="coffee">
+<h3>NOTÍCIAS QUENTES</h3>
+</div>
+</div> -->
+
+ <!-- LOJAS NOTICIAS QUENTES-->
+<div class="row" > 
+<div class="col-sm"id="lojas">
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4" id="fundo">
+      <img src="./images/new-loja.png" class="card-img" alt="decathlon Tiête" >
+    </div>
+    
+      <div class="card-body" id="loja1">
+        <h2 class="card-title"> <b>GRÃO ESPRESSO <br> AVANÇA COM <br>EXPANSÃO DE LOJAS</b></h2>
+        <p class="card-text"><em>9 cafeterias foram inauguradas nos últimos 3 meses</em>.</p>
+        <a href="loading.html"><button type="button" class="btn btn-outline-warning"> Saiba mais -></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm" >
+  <div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="./images/loja-2.png" class="card-img" alt="decathlon Tiête" id="img_col2" >
+      </div>
+      
+      <div class="card-body" id="loja2">
+        <h2 class="card-title"> <b>NOVA LOJA NA  <br> DECATHLON TIÊTE</b></h2>
+        <p class="card-text"><em>Grão Espresso inaugura mais uma loja em Tiête.</em></p>
+         <a href="loading.html"><button type="button" class="btn btn-outline-warning"> Saiba mais -></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  
+<!-- CADASTRO !-->
+<div class="row">
+<div class="col-sm" id="cadastro">
+  <div class="card-body" id="email">
+   <h1> <b> CADASTRE-SE E RECEBA NOSSAS NOVIDADES! </b></h1>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1"></label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Informe o seu e-mail">  <br>
+          <button type="button" class="btn btn-outline-light"onclick="enviaremail()" >Cadastrar-></a>
+  </form> 
+  </div>
+ </div>
+</div> 
+<div class="row">
+  <div class="col-sm" id="ci">
+    <br><br>
+    <img src="./images/png-designer-cafe.png" alt="xicara-logo" width="80%" height="70%" >
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- FORM- FRANQUEADOR!-->
+ <div class="row"> 
+  <div class="col-sm" id="franquiador">
+    <div class="card bg-dark text-white" >
+      <img src="./images/franquiador.png" class="card-img" alt="formulario-fornecedor" id="franq">
+      <div class="card-img-overlay" > 
+        <h1 class="card-title" id="loja">SEJA UM <br>FRANQUEADO</h1>
+        <p class="card-text"><em>Junte-se aos mais de 250 investidores que fazem da sua história com a Grão Espresso um case de sucesso!</em></p>
+        <div class="row">
+          <div class="col-sm">
+        <form>
+        
+          <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress"  placeholder="Nome">
+          </div>
+          
+          <div class="form-group">
+            <label for="inputAddress"></label>
+            <input type="text" class="form-control" id="inputAddress"  placeholder="Telefone">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail"> <br>
+            <button type="button" class="btn btn-outline-light" id="hony">PROSSEGUIR-></button>
+          
+          </div>
+            </form>
+          </div>
+            
+              <div class="col-sm"cds id="photo">
+               
+              <img src="./images/banner-h-franquias-franqueado.jpg"  alt="Homem" width="78%" height="80%">
+          
+      
+            </div>
+            <br><br><br>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<!-- NOSSA HISTÓRIA!-->
+    <div class="row">
+      <div class="col-sm" id="suaid"> <br><br> 
+        <h3>NOSSA HISTÓRIA</h3> 
+        <br>
+        <img src="./images/banner-h-historia-xicara.png" alt="xicara"  >
+      </div>
+ 
+
+        <div class="col-sm"  id="hist"> <br> <br>
+        <h1>PARA VOCÊ,<br> NOSSA PAIXÃO!</h1> <br>
+        <p id="grao-testo">A rede Grão Espresso nasceu de uma paixão, e foi <br> 
+          pensando nessa paixão que surgiu o desejo de compartilhar <br>
+           com outras pessoas o nosso melhor: o café espresso.  <br><br>
+        <button type="button" class="btn btn-outline-warning" >SAIBA MAIS -></button>
+      
+      </div>
+    </div>
+
+<!-- MAPA!-->
+    <div class="row">
+      <div class="col-sm" id="mapa">
+        <div class="card-body" >
+         <h1 id="mapa-form"> ENCONTRE UMA LOJA</h1>
+          <form >
+            <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Informe  endereço, bairro ou  cidade ">
+        </form> 
+        </div>
+       </div>
+      </div> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252837.34560852073!2d-35.078723238745056!3d-8.041800650827922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f88c446e5%3A0x3c9ef52922447fd4!2sRecife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1581522604547!5m2!1spt-BR!2sbr" width="1800" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+   
+<!-- FINAL DA PAGINA !-->
+    <footer class="page-footer font-small blue pt-4" id="end">
+      <div class="container-fluid text-center text-md-left">
+        <img src="./images/mini-xicara.png" alt="xicara" width="10%" height="10%" id="xicara-2"></div>
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <img src="./images/logotipo-branco.png" alt=""><br> <br>
+            <a href="https://www.instagram.com/jullydeveloper/?hl=pt-br"> <img src="https://img.icons8.com/metro/26/000000/instagram-new.png"></a> <a href="https://www.facebook.com/graoespresso/"><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png"></a> <a href="https://www.linkedin.com/in/jucel%C3%A2nia-silva-56a375197/"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"> </a>
+            <br> <br>
+            <h5><img src="https://img.icons8.com/windows/32/000000/phone.png"> (11) 3616-1530</h5>
+              <!-- Copyright -->
+            <br>
+          <h6>NOTÍCIAS  |  POLÍTICA DE PRIVACIDADE  |  CONTATO  |  SEJA UM FRANQUEADO</h6>
+           <p>© 2020 Grão Espresso. Todos os direitos reservados. | Desenvolvido por Jully Developer</p>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3" id="menu1">
+            <h4 class="text-uppercase"> SOBRE </h4>
+    
+            <ul class="list-unstyled" id="link1" >
+              <li>
+                <a href="#!">A Grão Espresso</a>
+              </li>
+              <li>
+                <a href="#!">Parceria 3 Corações</a>
+              </li>
+              <li>
+                <a href="#!">O Café Espresso</a>
+              </li>
+              <li>
+                <a href="#!">Nossas Lojas</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">CONTATO</h5>
+            <ul class="list-unstyled"  id="menu2">
+              <li>
+                <a href="#!">Fale Conosco</a>
+              </li>
+              <li>
+                <a href="#!">Trabalhe Conosco</a>
+              </li>
+              <li>
+                <a href="#!">Seja nosso Fornecedor</a>
+              </li>
+              <li>
+                <a href="#!">Seja um Franqueado</a>
+              </li>
+            </ul>
+    <div class="footer-copyright text-center py-3">
+      <img src="./images/logotipo-abf.png" alt="">  
+      </div>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <hr class="clearfix w-100 d-md-none pb-3">
+        </div>
+      </div>
+      <!-- Copyright 
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+    </footer>
+</body>
+</html>
+
+

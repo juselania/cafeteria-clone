@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo-pequena.png">
+    <script type="text/javascript" src="./meu-arquivo.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <title>Pra você, nossa paixão! | Grão Espreso</title> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+   <script>
+$(document).ready(function(){
+
+$('a').hover(function(){ 
+$(this).css("color","#FF4500"); 
+}, function(){
+$(this).css("color","#F5FFFA"); 
+});
+$('#submenu_sobre').css('background-color','#8B4513');
+$('#sobre').hover(function(){ 
+$('#submenu_sobre').show(); 
+
+}, function(){
+$('#submenu_sobre').hide();
+
+$('#cont_hide').css('background-color','#8B4513')
+$('#home').css({
+  'font-size':'22px',
+  'width':'100%',
+  'padding':'1%',
+  'font-family':'Century Gothic',
+  'color':'#FF4500'
+  /* superior | direita | inferior | esquerda */
+  //'padding': '10px 3em 0 1em'
+});
+
+$('#home').css('font-size','20px');
+$('#sobre').css('font-size','20px');
+$('#marca').css('color','#FF4500');
+
+$('body').css({
+  'font-family': 'westminster',
+
+});
+$('#home').css('background-color','#8B4513');
+$('#submenu_sobre').css('color','	#FF4500');
+}); 
+$('#a').css('text-decoration','none');
+
+//propaganda 
+$('#px-2').css('text-aling','left');
+$('#paixao').css('font-size','17px');
+$('#text0').css('color','	#FF8C00')
+
+
+$('#paixao').css({
+  'font-family':'Lucida Sans Typewriter',
+  'color':'#A0522D'
+ 
+});
+
+//colunas e img
+$('#pag1').css({
+  'background-color':'#FF8C00',
+  'text-align':'center',
+  'color':'#8B4513',
+  'font-family':'Century Gothic'
+});
+$('#pag2').css({
+  'background-color':'#FF8C00',
+  'text-align':'center',
+  'color':'#8B4513',
+  'font-family':'Century Gothic',
+  'font-size':'18px',
+});
+
+$('#pag3').css({
+  'background-color':'#FFE4B5',
+  'text-align':'center',
+  'color':'#8B4513',
+  'font-family':'Century Gothic'
+});
+
+$('#pag4-1').css({
+  'color':'	#8B4513',
+  'text-align':'center',
+  'color':'#8B4513',
+  'font-family':'Century Gothic'
+});
+$('#pag4').css({
+  'background-color':'#FF8C00',
+  'text-align':'center',
+  'color':'#8B4513',
+  'font-family':'Century Gothic',
+  'padding':'0%'
+});
+
+//SELO DE AUTORIZAÇÃO
+$('#img4').css({
+  'padding':'1%',
+  'text-align':'right',
+  'height':'0%'
+});
+
+$('#selo').css({
+  'padding':'3%',
+  'font-size':'20px',
+  'color':'#8B4513',
+});
+$('#selo-text').css({
+  'color':'#8B4513',
+  'padding':'2%'
+});
+
+//FORMATAÇÃO COMPROMIÇO
+$('#anuncio').css({
+'color':'#8B4513',
+'background-color':'#FFEBCD',
+'font-size':'20px',
+'padding':'2%'
+});
+$('#anuncio-text').css({
+  'color':'#FF8C00',
+  'padding':'2%'
+});
+$('#text-veja').css({
+  'text-align':'center',
+    'color':'#8B4513',
+    'font-size':'30px',
+    'font-family':'arial'
+});
+
+//FORMATAÇÃO PARCERIA
+$('#parceria').css({
+  'background-color':'	#FF8C00',
+  'padding':'2%'
+  });
+
+//FORMATAÇÃO FOOTER
+$('#menu1').css('color','#F8F8FF');
+$('#menu1').css('color','#F8F8FF');
+$('#a').css('text-decoration','none');
+$('#end').css('background-color','	#4F4F4F');
+$('#text-end').css('text-align','center');
+$('#end').css('color','#F8F8FF');
+$('#one').css('background-color','	#4F4F4F');
+$('#end0').css('background-color','	#4F4F4F');
+$('footer').css('width','100%');
+
+});
+</script>
+</head>
+
+<body>
+<ul class="nav" id="home">
+     <img src="./images/logo-esticada.png" alt="logo" width="15%" height="15%">
+ <hr>
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">HOME</a>
+      </li>
+       <li class="nav-item dropdown"  id="sobre">
+        <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SOBRE</a>
+    <div class="dropdown-menu" id="submenu_sobre">
+       <a class="dropdown-item" href="paixao.html">A grão espresso</a>
+       <a class="dropdown-item" href="grao-espresso-S.html">Espreso com S</a>
+       <a class="dropdown-item" href="parceria.html">Parcerias 3 Corações</a>
+       <a class="dropdown-item" href="lavoura.html">O Café espresso</a>
+       <a class="dropdown-item" href="#">Notícias</a>
+        <div class="dropdown-divider"></div>
+   </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PRODUTOS</a>
+      </li>
+        <li class="nav-item">
+         <a class="nav-link" href="loja.html">ENCONTRE UMA LOJA</a>
+       </li>
+       <li class="nav-item" id="marca">
+          <a class="nav-link" href="#"> <b> SEJA UM FRANQUEADO</b></a>
+       </li>
+       <li class="nav-item dropdown" id="cont">
+          <a class="nav-link"  data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CONTATO
+      <div class="dropdown-menu" id="cont_hide">
+        <a class="dropdown-item" href="#">Fale conosco</a>
+        <a class="dropdown-item" href="#">Trabalhe conosco</a>
+        <a class="dropdown-item" href="#">Seja nosso Fornecedor</a>
+        <div class="dropdown-divider"></div>
+     </div>
+     </li> 
+</ul>
+
+<div>   
+   <img src="./images/p-introdu.jpg" alt="" width="100%" height="80%"> 
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-sm" id="paixao">
+     <h1 id="text0"><b>Para você, nossa paixão!</b></h1><br>
+     <p><em><b>A rede Grão Espresso nasceu de uma paixão, e foi pensando nessa paixão que surgiu o <br>
+     desejo de compartilhar com vocês o nosso melhor: o café espresso.</p>
+  
+    <p>A história da marca iniciou-se em 1992 quando operávamos em pequenos carrinhos <br>
+     autossuficientes. Em 1994 tivemos a oportunidade de abrir nossa primeira cafeteria <br>
+     no Shopping D, na cidade de São Paulo. Já no ano seguinte, em 1995, foi inaugurada a  <br>
+      primeira loja franqueada e a partir daí deu-se o início a expansão da rede de franquias <br>
+      de cafeterias.</p>
+                      
+     <p>Atualmente a rede conta com 240 lojas em operação estando presente em 23 <br>
+       estados do Brasil, preparando mensalmente mais de 1 milhão de espressos e <br>
+       atendendo a mais de 15 milhões de clientes anualmente.</p>  
+       
+       <p>A Grão Espresso tem se empenhado em construir uma sólida estrutura <br>
+         de atendimento aos franqueados, permitindo que levem aos consumidores os melhores <br> 
+         produtos, o melhor ambiente, o melhor serviço e, claro, o melhor café espresso.</p> </b> </em> 
+  </div>                               
+    <div class="col-sm"cds id="px-2">
+      <br><br>
+      <img src="./images/p-moça-propaganada.jpg" alt="woman" height="97%" width="100%">
+    </div>
+</div>
+   <br><br>
+
+   
+<div class="row">
+  <div class="col-sm" id="pag1">
+    <img src="./images/xicara-3coracoes.png" alt="xicara">
+    <h3><b>ESPRESSO COM S?</b></h3>
+    <br>
+    <p>Nós poderíamos escrever com X e chamar o nosso espresso <br>
+       simplesmente de café expresso. Mas nas nossas cafeterias, o café é <br>
+       preparado de forma tão especial que merece ser elevado a um nível <br>
+        internacional de qualidade.</p>
+        <button type="button" class="btn btn-outline-light">Saiba Mais</button>
+  </div>
+  <div class="col-sm"cds id="pag2">
+    <div class="row"> 
+      <div class="col-sm" id="franquiador">
+        <div class="card bg-dark text-white" >
+          <img src="./images/t2.jpg" class="card-img" alt="Grão de Café" id="franq" height="100%" width="100%">
+          <div class="card-img-overlay" > 
+            <h2></b>MISSÃO</b></h2>
+            <hr>
+            <p id="marca">Compromisso com nossos franqueados em orientar, apoiar e <br>
+              desenvolver ferramentas para que as franquias atinjam seus <br>
+              melhores níveis de gestão e operação.
+            </p>
+            <br>
+            <p>Compromisso com o consumidor final em entregar-lhe a mais alta <br>
+              qualidade em produtos, limpeza e organização do ambiente, <br>
+              oferecidos em um excelente padrão de atendimento com preços <br>
+              acessíveis.</p>
+  </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm" id="pag3">
+   <br><br><br><br>
+   <h2><b>VISÃO</b></h2>
+   <br>
+   <p>Ser reconhecida por seus franqueados e respectivos clientes como <br>
+     uma Rede de cafeterias modelo de atendimento e satisfação, <br>
+     dentro de um sistema eficiente de franquia empresarial. <br></p>
+     <br><br><br><br> <br><br><br><br>
+ </div>
+  
+  <div class="col-sm"cds id="pag4">
+       <br><br><br><br>
+       <h2 id="pag4-1"><b>VALORES</b></h2>
+       <br>
+       <p>1. Resiliência, respeito, colaboração e cordialidade <br>
+         2. Dedicação ao franqueado <br>
+         2. Dedicação ao franqueado <br>
+         4. Rigor na execução e monitoramento</p>
+         <br><br><br><br>
+       </div>
+</div>
+</div>
+
+ <br>
+ <h2 id="selo-text"><b>SELO DE EXCELÊNCIA</b></h2>
+   <div class="row">
+    <div class="col-sm" id="selo">
+     <p><em>O sistema de franquias da Grão Espresso é chancelado pela ABF (Associação Brasileira de Franchising) com <br>
+      o Selo de Excelência em Franchising de 2014. Avaliado pelos próprios franqueados, este título nos coloca <br>
+      entre as melhores franquias nos quesitos “padrões de comercialização” e “operação”. Se podemos comemorar <br>
+       esta conquista, é porque estamos sempre pensando no melhor para você.</em> <br></p>
+   </div>
+    <div class="col-sm"cds id="img4">
+         <br><br><br><br>
+         <img src="./images/banner-sobre-historia-selo-abf.jpg" alt="Selo">
+         </div>
+  </div>
+ 
+
+
+  <div class="row">
+    <div class="col-sm" id="anuncio">
+      <div class="card-body" >
+       <h2 id="anuncio-text"> SUSTENTABILIDADE - COMPROMISSO</h2>
+       <p><em> Grão Espresso anuncia o compromisso de, até 2025, completar a transição para que 100% dos ovos utilizados em sua 
+        cadeia de suprimentos sejam oriundos de galinhas <br>livres de gaiolas (cage-free).</em></p>
+      </div>
+     </div>
+    </div> 
+
+    <div class="row">
+      <div class="col-sm" id="text-veja">
+        <div class="card-body" >
+          <img src="./images/logo-pequena.png" alt="logo-grão-espresso" >
+          <h1>VEJA TAMBÉM</h1>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="row" id="parceria">
+      <div class="col-sm" >
+        <div class="card-body" >
+          <a href="paixao.html"><img src="./images/banner-sobre-vejamais-parceria3.jpg" alt=""  height="100%" width="100%"></a>
+        </div>
+       </div>
+    <div class="col-sm">
+          <div class="card-body" >
+          <a href="lavoura.html"><  <img src="./images/banner-sobre-vejamais-cafe.jpg" alt="" height="100%" width="100%">/a>
+            
+          </div>
+        </div>
+      </div>
+  
+
+      <footer class="page-footer font-small blue pt-4" id="end">
+        <div class="container-fluid text-center text-md-left">
+          <img src="./images/mini-xicara.png" alt="xicara" width="10%" height="10%" id="xicara-2"></div>
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+              <!-- Content -->
+              <img src="./images/logotipo-branco.png" alt=""><br> <br>
+              <a href="https://www.instagram.com/jullydeveloper/?hl=pt-br"> <img src="https://img.icons8.com/metro/26/000000/instagram-new.png"></a> <a href="https://www.facebook.com/graoespresso/"><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png"></a> <a href="https://www.linkedin.com/in/jucel%C3%A2nia-silva-56a375197/"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-2.png"> </a>
+              <br> <br>
+              <h5><img src="https://img.icons8.com/windows/32/000000/phone.png"> (11) 3616-1530</h5>
+                <!-- Copyright -->
+              <br>
+            <h6>NOTÍCIAS  |  POLÍTICA DE PRIVACIDADE  |  CONTATO  |  SEJA UM FRANQUEADO</h6>
+             <p>© 2020 Grão Espresso. Todos os direitos reservados. | Desenvolvido por Jully Developer</p>
+            </div>
+  
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3" id="menu1">
+              <h4 class="text-uppercase"> SOBRE </h4>
+      
+              <ul class="list-unstyled" id="link1" >
+                <li>
+                  <a href="#!">A Grão Espresso</a>
+                </li>
+                <li>
+                  <a href="#!">Parceria 3 Corações</a>
+                </li>
+                <li>
+                  <a href="#!">O Café Espresso</a>
+                </li>
+                <li>
+                  <a href="#!">Nossas Lojas</a>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5 class="text-uppercase">CONTATO</h5>
+              <ul class="list-unstyled"  id="menu2">
+                <li>
+                  <a href="#!">Fale Conosco</a>
+                </li>
+                <li>
+                  <a href="#!">Trabalhe Conosco</a>
+                </li>
+                <li>
+                  <a href="#!">Seja nosso Fornecedor</a>
+                </li>
+                <li>
+                  <a href="#!">Seja um Franqueado</a>
+                </li>
+              </ul>
+      <div class="footer-copyright text-center py-3">
+        <img src="./images/logotipo-abf.png" alt="">  
+        </div>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <hr class="clearfix w-100 d-md-none pb-3">
+          </div>
+        </div>
+        <!-- Copyright 
+        <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
+      </footer>
+
+</body>
+</html>
